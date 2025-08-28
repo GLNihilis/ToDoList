@@ -33,12 +33,5 @@ dotnet watch run
 
 ### Frontend
 
-- Cài dependencies:
-```bash
-npm install
-```
-- Chạy ứng dụng:
-```bash
-ng serve -o
-```
-- Ứng dụng mở tại: http://localhost4200:
+Khó khăn gặp phải:
+<img width="2554" height="442" alt="image" src="https://github.com/user-attachments/assets/af69c18e-d15c-4dc5-88ab-54db8b31fde0" />
