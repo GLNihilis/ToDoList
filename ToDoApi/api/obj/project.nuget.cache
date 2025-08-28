@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GuAPO18rK5o=",
+  "dgSpecHash": "epx7wLG0ykk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\todoapi\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\ToDoApi\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Predator\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Predator\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
