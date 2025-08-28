@@ -35,3 +35,5 @@ dotnet watch run
 
 Khó khăn gặp phải:
 <img width="2554" height="442" alt="image" src="https://github.com/user-attachments/assets/af69c18e-d15c-4dc5-88ab-54db8b31fde0" />
+
+### Đang Trong Quá Trình Fix Bug...
