@@ -1,8 +1,44 @@
-# ToDo Application
+# ToDoList (.NET 9 WebAPI + Angular + SQL)
 
-Công nghệ sử dụng: Backend(ASP.NET Core WebAPI) + Frontend(Angular) + DATA(SQL).  
-Mục tiêu: Xây dựng ứng dụng Todo quản lý danh sách các công việc với các chức năng như hiển thị, thêm, sửa, xoá, cập nhật,...
+### Hướng dẫn cài đặt và chạy project
 
----
+#### Clone Repository
 
-## Hướng dẫn chạy project
+```bash
+https://github.com/GLNihilis/ToDoList.git
+cd todoapi
+```
+
+#### Backend
+
+- Mở file `appsettings.json` và chỉnh lại tên SQL ConnectionStrings
+- Nếu repo đã có sẵn folder Migrations: 
+```bash
+dotnet ef database update
+```
+- Nếu repo chưa có Migrations:
+```bash
+dotnet ef migrations add init
+dotnet ef database update
+```
+- Cài package:
+```bash
+dotnet restore
+```
+- Để chạy: 
+```bash
+dotnet watch run
+```
+- Mặc định backend chạy cổng: http://localhost:5192.
+
+### Frontend
+
+- Cài dependencies:
+```bash
+npm install
+```
+- Chạy ứng dụng:
+```bash
+ng serve -o
+```
+- Ứng dụng mở tại: http://localhost4200:
