@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\ToDoApi\\api\\api.csproj": {}
+    "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\todoapi\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\ToDoApi\\api\\api.csproj": {
+    "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\todoapi\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\ToDoApi\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\todoapi\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\ToDoApi\\api\\api.csproj",
+        "projectPath": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\todoapi\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Predator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\ToDoApi\\api\\obj\\",
+        "outputPath": "C:\\Users\\Predator\\Downloads\\Junk Project\\ToDoList\\todoapi\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
