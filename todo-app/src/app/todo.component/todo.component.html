@@ -1,0 +1,50 @@
+<div class="todo-container">
+  <h1>Quản lý công việc</h1>
+
+  <!-- Form thêm Todo mới -->
+  <div class="add-todo">
+    <input 
+      type="text" 
+      [(ngModel)]="newTodoTitle" 
+      (keyup.enter)="addTodo()"
+      placeholder="Nhập công việc mới..." 
+      class="todo-input"
+    >
+    <button (click)="addTodo()" class="btn-add">Thêm</button>
+  </div>
+
+  <!-- Hiển thị lỗi nếu có -->
+  <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+  </div>
+
+  <!-- Loading -->
+  <div *ngIf="isLoading" class="loading">
+      Đang tải dữ liệu...
+  </div>
+
+  <!-- Danh sách Todo -->
+  <div class="todo-list" *ngIf="!isLoading">
+    <div *ngIf="todos.length === 0" class="empty-message">
+        Chưa có công việc nào. Hãy thêm công việc mới!
+    </div>
+
+    <div *ngFor="let todo of todos" class="todo-item" [class.completed]="todo.isDone">
+        <input 
+          type="checkbox" 
+          [checked]="todo.isDone" 
+          (change)="toggleTodo(todo)"
+          class="todo-checkbox"
+        >
+        <span class="todo-title">{{ todo.title }}</span>
+        <button (click)="deleteTodo(todo.id)" class="btn-delete">❌</button>
+    </div>
+  </div>
+
+  <!-- Thống kê -->
+  <!-- <div class="stats" *ngIf="todos.length > 0">
+      <span>Tổng: {{ todo.length }}</span>
+      <span>Hoàn thành: {{ todo.filter(t => t.isDone).length }}</span>
+      <span>Chưa xong: {{ todo.filter(t => !t.isDone).length }}</span>
+  </div> -->
+</div>
