@@ -22,9 +22,15 @@ builder.Services.AddCors(options =>
     });
 });
 
+// builder.Services.AddDbContext<ApplicationDBContext>(options =>
+// {
+//     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+// });
+
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection")));
 });
 
 builder.Services.AddScoped<ITodoRepository, TodoRepository>();

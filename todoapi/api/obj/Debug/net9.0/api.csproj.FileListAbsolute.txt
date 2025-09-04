@@ -524,3 +524,5 @@ C:\Users\Predator\Downloads\Junk Project\ToDoList\todoapi\api\obj\Debug\net9.0\r
 C:\Users\Predator\Downloads\Junk Project\ToDoList\todoapi\api\obj\Debug\net9.0\api.pdb
 C:\Users\Predator\Downloads\Junk Project\ToDoList\todoapi\api\obj\Debug\net9.0\api.genruntimeconfig.cache
 C:\Users\Predator\Downloads\Junk Project\ToDoList\todoapi\api\obj\Debug\net9.0\ref\api.dll
+C:\Users\Predator\Downloads\Junk Project\ToDoList\todoapi\api\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\Predator\Downloads\Junk Project\ToDoList\todoapi\api\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
